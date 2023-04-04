@@ -1,0 +1,40 @@
+.basket {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+    border: 1px solid black;
+}
+
+.basket__table {
+    display: flex;
+    border: 1px solid black;
+}
+
+.basket__cont {
+    width: 400px;
+    margin: 0 0 0 3%;
+}
+
+.basket__calc {
+    margin: 0 0 0 20%;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.result {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.button {
+    margin: 2%;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    font-size:larger;
+}

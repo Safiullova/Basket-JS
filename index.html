@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Basket</title>
+</head>
+
+<body>
+    <h1>Корзина</h1>
+    <div class="basket">
+        <div class="basket__table">
+            <img src="https://shop.soyka.ru/upload/iblock/ee9/qnc82gu901bslflk8htfvgsemz1d7jvc.jpg" alt="apple">
+            <div class="basket__cont">
+                <h2 class="basket__cont-title">Яблоки</h2>
+                <p class="basket__cont-text">Сорт: <span class="sort">Голден</span></p>
+                <p class="basket__cont-text">Цена: <span class="price">110</span> руб/кг</p>
+                <p class="basket__cont-text">Количество: <span class="number">2</span> кг</p>
+            </div>
+            <div class="basket__calc">
+                <h2 class="basket__calc-title">Cтоимость:</h2>
+                <p class="basket__calc-text" summ()>300 руб.</p>
+            </div>
+        </div>
+        <div class="basket__table">
+            <img src="https://www.assorti.lt/cache/images/31ff2d35d49c634f8104c45b6ee594df.png" alt="pear">
+            <div class="basket__cont">
+                <h2 class="basket__cont-title">Груши</h2>
+                <p class="basket__cont-text">Сорт: <span class="sort">Конференция</span></p>
+                <p class="basket__cont-text">Цена: <span class="price">215</span> руб/кг</p>
+                <p class="basket__cont-text">Количество: <span class="number">3</span> кг</p>
+            </div>
+            <div class="basket__calc">
+                <h2 class="basket__calc-title">Cтоимость:</h2>
+                <p class="basket__calc-text" summ()>500 <span>руб.</span></p>
+            </div>
+        </div>
+        <div class="basket__table">
+            <img src="https://mediacity.co.in/origano/version4/images/shop/product-07.png" alt="fruit">
+            <div class="basket__cont">
+                <h2 class="basket__cont-title">Гранаты</h2>
+                <p class="basket__cont-text">Сорт: <span class="sort">Турецкие</span></p>
+                <p class="basket__cont-text">Цена: <span class="price">165</span> руб/кг</p>
+                <p class="basket__cont-text">Количество: <span class="number">5</span> кг</p>
+            </div>
+            <div class="basket__calc">
+                <h2 class="basket__calc-title">Cтоимость:</h2>
+                <p class="basket__calc-text" summ()>700 <span>руб.</span></p>
+            </div>
+        </div>
+        <div class="basket__table">
+            <img src="https://i.otzovik.com/objects/b/1830000/1827668.png" alt="oranges">
+            <div class="basket__cont">
+                <h2 class="basket__cont-title">Апельсины</h2>
+                <p class="basket__cont-text">Сорт: <span class="sort">Марокко</span></p>
+                <p class="basket__cont-text">Цена: <span class="price">180</span> руб/кг</p>
+                <p class="basket__cont-text">Количество: <span class="number">2</span> кг</p>
+            </div>
+            <div class="basket__calc">
+                <h2 class="basket__calc-title">Cтоимость:</h2>
+                <p class="basket__calc-text" summ()>900 <span>руб.</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="result">
+        <button class="button">Использовать купон 20%</button>
+        <div class="result__sum">
+            <h2 class="result__title">Итого:</h2>
+            <p class="result__total"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
