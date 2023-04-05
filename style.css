@@ -1,7 +1,7 @@
 .basket {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 800px;
     
     border: 1px solid black;
 }
@@ -16,9 +16,9 @@
     margin: 0 0 0 3%;
 }
 
-.basket__calc {
+/* .basket__calc {
     margin: 0 0 0 20%;
-}
+} */
 
 img {
     width: 200px;
