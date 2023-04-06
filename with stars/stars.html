@@ -10,7 +10,14 @@
 <body>
     <input id="add" type="number">Веести данные
     <input id="stop" readonly >Результат
-    <button id="btn" onclick="calc(a.value)">Нажми</button>
-    <script src="stars.js"></script>
+    <button id="btn" onclick="calc()">Нажми</button>
+    <script >
+        calc = () => {
+    document.getElementById('stop').value =  document.getElementById('add').value**2;
+};
+    </script>
+
+
+
 </body>
 </html>

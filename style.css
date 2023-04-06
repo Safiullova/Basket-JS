@@ -16,10 +16,6 @@
     margin: 0 0 0 3%;
 }
 
-/* .basket__calc {
-    margin: 0 0 0 20%;
-} */
-
 img {
     width: 200px;
     height: 200px;
@@ -27,7 +23,7 @@ img {
 
 .result {
     display: flex;
-    width: 80%;
+    width: 800px;
     justify-content: space-around;
 }
 
